@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="doc">
+        <div class="main">
+            <div class="title">
+                <div class="heading">Upload an Image</div>
+            </div>
+            <form class="form" action="/predict" method="post" enctype="multipart/form-data">
+                <div class="file-area">
+                    <input type="file" name="image" required>
+                    <div class="file-dummy">
+                        <div class="default">Select an Image or Drag and Drop</div>
+                        <div class="success">Image Selected!</div>
+                        <div class="blue-btn">Browse</div>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
