@@ -1,0 +1,11 @@
+Numpy
+io
+Keras
+Tensorflow
+Pandas
+Sklearn
+Matplotlib
+Opencv
+flask
+PIL
+CV2
