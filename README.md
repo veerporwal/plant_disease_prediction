@@ -28,15 +28,12 @@ Once the application is running, you can upload an image of a plant leaf to get 
 
 The machine learning model used in this project is trained on a dataset of plant images with labels for different diseases. We have used the TensorFlow and Keras libraries for building and training the model.
 
-## Contributing
 
-We welcome contributions from the community to improve this project. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
+## Link To The Dataset
 
-## License
+https://drive.google.com/drive/folders/1vGu7nzAwZshADvUQDySTDYC4qvc-K8x4?usp=sharing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## collab link where I trained the model
 
-## Acknowledgements
-
-We would like to thank [insert names or organizations] for their contributions to this project.
+https://colab.research.google.com/drive/14NCLdmPS7diFNHCZ9OO8GvLpH0pYw-5C?usp=sharing
 
